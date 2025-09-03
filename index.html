@@ -1,38 +1,100 @@
-<index.html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Mateo's Guitar work</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e1e2f, #2d2d44);
+            color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+        }
+        img {
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 10px;
+            color: #ffd369;
+            text-shadow: 2px 2px 5px black;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #61dafb;
+            font-weight: bold;
+            margin: 0 12px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffd369;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        iframe {
+            border: 4px solid #444;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #111;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #61dafb;
+            font-weight: bold;
+        }
+        footer a:hover {
+            color: #ffd369;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Logo -->
-    <img src="HLD gameboy.jpg" alt="WEB Logo" width="100">
-
-    <!-- Heading -->
-    <h1>Welcome !!!</h1>
+    <!-- Logo + Heading -->
+    <header>
+        <img src="HLD gameboy.jpg" alt="WEB Logo" width="100">
+        <h1>Welcome !!!</h1>
+    </header>
 
     <!-- Navigation Links -->
-    <a href="index.html">Home</a> &nbsp;
-    <a href="pricinglist.html">Pricing</a> &nbsp;
-    <a href="feedback.html">leave a review</a> &nbsp;
-    <br><br>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pricinglist.html">Pricing</a>
+        <a href="feedback.html">leave a review</a>
+    </nav>
 
-    <!-- Paragraph -->
-    <p>
-        Hello,my name is Mateo and i'm a guitarist and amatuer guitar tech with 2 years of experience.<br>
-        I currently offer set ups and simple modifications for guitars, and basses. such as changing hardware and necks.<br>
-    </p>
+    <!-- Paragraphs -->
+    <main>
+        <p>
+            Hello,my name is Mateo and i'm a guitarist and amatuer guitar tech with 2 years of experience.<br>
+            I currently offer set ups and simple modifications for guitars, and basses. such as changing hardware and necks.<br>
+        </p>
 
-    <p> here is a video of me playing guitar to demonstrate my playing ability<br>
-        <iframe width="280" height="157.5" src="https://www.youtube.com/embed/FY8IEirOi78?si=5TvVj5jsGCnV8vHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </p>
+        <p>
+            here is a video of me playing guitar to demonstrate my playing ability<br>
+            <iframe width="280" height="157.5" src="https://www.youtube.com/embed/FY8IEirOi78?si=5TvVj5jsGCnV8vHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p>
+    </main>
+
     <!-- Footer -->
-    <p>
+    <footer>
         <p><a href="mailto:mateopanas0526@gmail.com">Contact me</a></p>
-    </p>
+    </footer>
 
 </body>
-
 </html>
-
-
