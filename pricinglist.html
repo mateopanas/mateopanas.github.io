@@ -1,7 +1,73 @@
-<pricinglist.html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+   <meta charset="UTF-8">
    <title>pricing</title>
+   <style>
+      body {
+         font-family: Arial, sans-serif;
+         background: linear-gradient(to right, #1e1e2f, #2d2d44);
+         color: #f4f4f4;
+         margin: 0;
+         padding: 0;
+         text-align: center;
+      }
+      nav {
+         background: #111;
+         padding: 12px;
+         margin-bottom: 25px;
+         box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+      }
+      nav a {
+         text-decoration: none;
+         color: #61dafb;
+         font-weight: bold;
+         margin: 0 15px;
+         transition: color 0.3s ease;
+      }
+      nav a:hover {
+         color: #ffd369;
+      }
+      h1 {
+         font-size: 2.5rem;
+         color: #ffd369;
+         text-shadow: 2px 2px 5px black;
+         margin-bottom: 5px;
+      }
+      h2 {
+         font-size: 1.3rem;
+         color: #ddd;
+         margin-bottom: 30px;
+      }
+      table {
+         margin: auto;
+         border-collapse: collapse;
+         width: 70%;
+         background: #2d2d44;
+         box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+         border-radius: 8px;
+         overflow: hidden;
+      }
+      th, td {
+         padding: 15px;
+         border: 1px solid #444;
+      }
+      th {
+         background: #444;
+         color: #ffd369;
+         font-size: 1.2rem;
+         text-transform: uppercase;
+      }
+      td {
+         font-size: 1rem;
+      }
+      tr:nth-child(even) td {
+         background: #1e1e2f;
+      }
+      tr:nth-child(odd) td {
+         background: #2d2d44;
+      }
+   </style>
 </head>
 <body>
 
@@ -15,34 +81,36 @@
    <h1>pricing</h1>
    <h2>current pricing for guitar work, subject to change !</h2>
 
-<table border="1">
-    <tr>
-      <th colspan="2">Pricesr</th>
-    </tr>
-    <tr>
-      <td>Simple Set up</td>
-      <td>$60</td>
-    </tr>
-    <tr>
-      <td>Restring</td>
-      <td>$25</td>
-    </tr>
-    <tr>
-      <td>Bridge Replacement</td>
-      <td>$50, plus cost of new part</td>
-    </tr>
-    <tr>
-      <td>Tuner Replacement</td>
-      <td>$50, plus cost of new parts</td>
-    </tr>
-    <tr>
-      <td>Neck Replacement</td>
-      <td>$100, plus cost of new neck</td>
-    </tr>
-  </table>
-
+   <table>
+      <tr>
+         <th colspan="2">Pricesr</th>
+      </tr>
+      <tr>
+         <td>Simple Set up</td>
+         <td>$60</td>
+      </tr>
+      <tr>
+         <td>Restring</td>
+         <td>$25</td>
+      </tr>
+      <tr>
+         <td>Bridge Replacement</td>
+         <td>$50, plus cost of new part</td>
+      </tr>
+      <tr>
+         <td>Tuner Replacement</td>
+         <td>$50, plus cost of new parts</td>
+      </tr>
+      <tr>
+         <td>Neck Replacement</td>
+         <td>$100, plus cost of new neck</td>
+      </tr>
+   </table>
 
 </body>
 </html>
+
+</html>
+
 
 
